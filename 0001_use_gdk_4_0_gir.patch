@@ -1,0 +1,13 @@
+diff --git a/src/meson.build b/src/meson.build
+index 33592e4..98a213b 100644
+--- a/src/meson.build
++++ b/src/meson.build
+@@ -185,7 +185,7 @@ if get_option('introspection')
+     identifier_prefix: 'Gulkan',
+     symbol_prefix: 'gulkan',
+     export_packages: api_path,
+-    includes: [ 'cairo-1.0', 'GdkPixbuf-2.0', 'Gdk-3.0', 'Graphene-1.0', 'Vulkan-1.0' ],
++    includes: [ 'cairo-1.0', 'GdkPixbuf-2.0', 'Gdk-4.0', 'Graphene-1.0', 'Vulkan-1.0' ],
+     header: 'gulkan.h',
+     install: true,
+   )
